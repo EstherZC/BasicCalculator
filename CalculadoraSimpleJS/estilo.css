@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+#tabla{
+    text-align: center;
+}
+table {
+    border: 1px solid #000;
+    background-color: black;
+    border-radius: 10px;
+    width: 210px;
+    height: 300px;
+    margin:0 auto;
+ }
+ .number, .operator,.deleteAll{
+    width: 24px ;
+    height: 24px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: grey;
+    font-weight: bolder;
+ } 
+ .number{ color: white;}
+ .operator{color: greenyellow;}
+ .deleteAll{ color: tomato;}
+ #display{
+    color:white;
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    position: static;
+    border-top: gray;
+ }
+ .numberfocus, .operatorfocus,.deleteAllfocus{
+    width: 24px ;
+    height: 24px;
+    border-radius: 15px;
+    border-color: lightgray;
+    color: black;
+    font-weight: bolder;
+ } 
+ .numberfocus{ background-color: white;}
+ .operatorfocus{ background-color:greenyellow;}
+ .deleteAllfocus{ background-color: tomato;}
