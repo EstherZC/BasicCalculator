@@ -11,6 +11,7 @@ $(document).ready(function(){
     $(".operator").hover(onHoverO, onLeaveO);
     $(".operator").click(function(){
         if(num !=""){
+            if(i == 1){ i=0;}
             operacion[i]=num;
             num="";
             i++;
